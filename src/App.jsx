@@ -203,7 +203,12 @@ function App() {
       {/* Cámara */}
       <a-entity position="0 1.6 6">
         <a-camera look-controls wasd-controls="acceleration: 80">
-          <a-cursor></a-cursor>
+          <a-cursor
+            fuse="true"           
+            fuse-timeout="1500"   
+            raycaster="objects: .clickable"
+            color="#FF4081"  
+          ></a-cursor>
         </a-camera>
       </a-entity>
 
