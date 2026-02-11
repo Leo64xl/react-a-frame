@@ -54,9 +54,9 @@ function App() {
           loop: true,
           dur: 1200,
           easing: 'easeInOutQuad',
-          autoplay: false,
           startEvents: 'mouseenter',
-          pauseEvents: 'mouseleave'
+          pauseEvents: 'mouseleave',
+          resumeEvents: 'mouseenter'
         }}
         animation__wiggle={{
           property: 'rotation',
@@ -65,9 +65,9 @@ function App() {
           loop: true,
           dur: 800,
           easing: 'easeInOutQuad',
-          autoplay: false,
           startEvents: 'mouseenter',
-          pauseEvents: 'mouseleave'
+          pauseEvents: 'mouseleave',
+          resumeEvents: 'mouseenter'
         }}
       />
 
@@ -85,9 +85,9 @@ function App() {
           loop: true,
           dur: 2000,
           easing: 'easeInOutQuad',
-          autoplay: false,
           startEvents: 'mouseenter',
-          pauseEvents: 'mouseleave'
+          pauseEvents: 'mouseleave',
+          resumeEvents: 'mouseenter'
         }}
         animation__float={{
           property: 'position',
@@ -96,9 +96,9 @@ function App() {
           loop: true,
           dur: 1500,
           easing: 'easeInOutSine',
-          autoplay: false,
           startEvents: 'mouseenter',
-          pauseEvents: 'mouseleave'
+          pauseEvents: 'mouseleave',
+          resumeEvents: 'mouseenter'
         }}
       />
       
@@ -116,9 +116,9 @@ function App() {
           loop: true,
           dur: 600,
           easing: 'easeOutQuad',
-          autoplay: false,
           startEvents: 'mouseenter',
-          pauseEvents: 'mouseleave'
+          pauseEvents: 'mouseleave',
+          resumeEvents: 'mouseenter'
         }}
         animation__tilt={{
           property: 'rotation',
@@ -127,9 +127,9 @@ function App() {
           loop: true,
           dur: 1000,
           easing: 'easeInOutQuad',
-          autoplay: false,
           startEvents: 'mouseenter',
-          pauseEvents: 'mouseleave'
+          pauseEvents: 'mouseleave',
+          resumeEvents: 'mouseenter'
         }}
         animation__squash={{
           property: 'scale',
@@ -138,9 +138,9 @@ function App() {
           loop: true,
           dur: 600,
           easing: 'easeInOutQuad',
-          autoplay: false,
           startEvents: 'mouseenter',
-          pauseEvents: 'mouseleave'
+          pauseEvents: 'mouseleave',
+          resumeEvents: 'mouseenter'
         }}
       />
 
